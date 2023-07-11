@@ -176,7 +176,7 @@ span {
 .services-item-text {
     color: rgba(39, 39, 39, 0.80);
     text-align: center;
-    font-size: 24px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 600;
     line-height: 35px;
@@ -222,7 +222,7 @@ span {
     background-color: #fceef1;
     width: 65%;
     margin: 150px auto;
-    padding: 80px 100px 150px 100px;
+    padding: 80px 100px 100px 100px;
     border-radius: 20px;
 }
 
@@ -235,7 +235,7 @@ span {
 
 .experts-img-box:hover {
     box-shadow: 0 0.7rem 1.2rem rgba(0, 0, 0, 0.2);
-    transform: translateY(-3px);
+    transform: translateY(-3px) scale(1.01);
     cursor: pointer;
 }
 
