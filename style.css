@@ -228,11 +228,90 @@ span {
     height: 449px;
 }
 
+.subscribe-content {
+    padding: 122px 287px;
+}
+
 .subscribe-heading {
     color: #272727;
     text-align: center;
     font-size: 40px;
     font-style: normal;
     font-weight: 800;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.subscribe-input {
+    display: flex;
+    margin-top: 48px;
+}
+
+.input-email {
+    width: 700px;
+    height: 64px;
+    border: none;
+    margin-right: 16px;
+    outline: none;
+}
+
+.sub-btn {
+    color: #fff;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 8px;
+    background-color: #E55473;
+    padding: 20px 43px;
+    border: none;
+    cursor: pointer;
+}
+
+::placeholder {
+    padding: 22px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* //// footer section style ////*/
+
+.footer {
+    background-color: #111010;
+}
+
+.footer-container {
+    padding: 128px 648px;
+    text-align: center;
+}
+
+.footer-heading {
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    color: #fff;
+}
+
+.footer-text {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 24px 32px;
+}
+
+.footer-copyright {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
     line-height: normal;
 }
