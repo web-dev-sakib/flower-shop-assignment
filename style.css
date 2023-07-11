@@ -295,6 +295,7 @@ span {
     border: none;
     margin-right: 16px;
     outline: none;
+    border-radius: 8px;
 }
 
 .sub-btn {
@@ -318,6 +319,7 @@ span {
     font-weight: 400;
     line-height: normal;
 }
+
 
 /* //// footer section style ////*/
 
