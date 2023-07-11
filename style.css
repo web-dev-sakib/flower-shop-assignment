@@ -216,6 +216,37 @@ span {
     margin-top: 48px;
 }
 
+/* //// experts section style ////////*/
+
+.experts {
+    background-color: #fceef1;
+    width: 65%;
+    margin: 150px auto;
+    padding: 80px 100px 150px 100px;
+    border-radius: 20px;
+}
+
+.experts-content {
+    text-align: center;
+}
+
+.experts-img-area {
+    display: flex;
+    column-gap: 80px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.experts-name {
+    font-weight: lighter;
+    margin: 30px 0 10px 0;
+}
+
+.experts-category {
+    color: rgba(39, 39, 39, 0.80);
+}
+
 
 /* ////// subscribe section style //////*/
 
