@@ -220,10 +220,8 @@ span {
 
 .experts {
     background-color: #fceef1;
-    width: 65%;
     margin: 150px auto;
-    padding: 80px 100px 100px 100px;
-    border-radius: 20px;
+    padding: 80px 100px;
 }
 
 .experts-img-box {
@@ -245,10 +243,10 @@ span {
 
 .experts-img-area {
     display: flex;
-    column-gap: 20px;
+    column-gap: 50px;
     justify-content: center;
     align-items: center;
-    margin-top: 80px;
+    margin-top: 60px;
 }
 
 .experts-name {
