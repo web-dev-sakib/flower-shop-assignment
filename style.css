@@ -226,13 +226,26 @@ span {
     border-radius: 20px;
 }
 
+.experts-img-box {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    padding: 50px;
+    border-radius: 3px;
+    transition: all .3s;
+}
+
+.experts-img-box:hover {
+    box-shadow: 0 0.7rem 1.2rem rgba(0, 0, 0, 0.2);
+    transform: translateY(-3px);
+    cursor: pointer;
+}
+
 .experts-content {
     text-align: center;
 }
 
 .experts-img-area {
     display: flex;
-    column-gap: 80px;
+    column-gap: 20px;
     justify-content: center;
     align-items: center;
     margin-top: 80px;
