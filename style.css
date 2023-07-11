@@ -9,6 +9,10 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+span {
+    color: #E55473;
+}
+
 /*///// Header section style //////*/
 
 .header {
@@ -191,4 +195,44 @@ body {
 
 .discount-content {
     text-align: center;
+}
+
+/*////// instagram section style //////*/
+
+.instagram {
+    background-color: #fff;
+}
+
+.instagram-content {
+    width: 80%;
+    margin: 128px auto;
+}
+
+.instagram-img-area {
+    display: flex;
+    column-gap: 24px;
+    justify-content: center;
+    align-content: center;
+    margin-top: 48px;
+}
+
+
+/* ////// subscribe section style //////*/
+
+.subscribe {
+    border-radius: 8px;
+    background-image: url("/img/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    margin: 128px auto;
+    width: 76%;
+    height: 449px;
+}
+
+.subscribe-heading {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
